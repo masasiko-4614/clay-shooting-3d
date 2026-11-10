@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f6fb8"/><stop offset="0.72" stop-color="#bcd6e8"/><stop offset="0.72" stop-color="#3e6b2e"/><stop offset="1" stop-color="#2c5022"/></linearGradient>
+    <radialGradient id="clay" cx="0.45" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffa36a"/><stop offset="1" stop-color="#ff4f10"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#sky)"/>
+  <path d="M0 368 Q80 330 150 352 T300 340 T512 350 V372 H0Z" fill="#244a24"/>
+  <g transform="translate(256 228)">
+    <ellipse cx="0" cy="22" rx="118" ry="38" fill="#111"/>
+    <path d="M-118 16 Q0 -88 118 16 Q0 56 -118 16Z" fill="url(#clay)"/>
+    <ellipse cx="0" cy="-22" rx="48" ry="13" fill="#ffb27f" opacity=".85"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="16" stroke-linecap="round" fill="none" opacity=".95">
+    <circle cx="256" cy="236" r="150" stroke-width="12"/>
+    <line x1="256" y1="40" x2="256" y2="120"/><line x1="256" y1="352" x2="256" y2="432"/>
+    <line x1="60" y1="236" x2="140" y2="236"/><line x1="372" y1="236" x2="452" y2="236"/>
+  </g>
+  <circle cx="256" cy="236" r="9" fill="#ff2a1a"/>
+</svg>
